@@ -39,7 +39,7 @@ namespace Repository.ChangeTracking
                 if (!KeySelector(CurrentValue).SequenceEqual(KeySelector(InitialValue)))
                     throw new InvalidOperationException("You cannot change an object's key value.");
 
-                return CanTrackChanges && !new CompareObjects().Compare(CurrentValue, InitialValue);
+                return CanTrackChanges && !new CompareLogic().Compare(CurrentValue, InitialValue).AreEqual;
             }
         }
         //===============================================================
