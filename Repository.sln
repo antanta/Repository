@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{3F3C814E-62AD-4065-8E75-068607D5BB69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.EntityFramework", "Repository.EntityFramework\Repository.EntityFramework.csproj", "{E6875049-BE49-44B0-9A4B-6B3571375CC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6E35D9F0-05CE-4387-8E74-BA1EA7C89588}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		README.md = README.md
+		Repository.vsmdi = Repository.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.FileSystem", "Repository.FileSystem\Repository.FileSystem.csproj", "{3520645E-E8F6-4BD2-9C55-9E055BEB5883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainApplication", "MainApplication\MainApplication.csproj", "{91CABFBE-9F9A-4B48-B211-75DC91068CDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{C1D64D43-FBDA-405B-96BE-34AF74064F53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Azure", "Repository.Azure\Repository.Azure.csproj", "{E609A74D-9B8E-4629-B1F3-22D710D1861A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F3C814E-62AD-4065-8E75-068607D5BB69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F3C814E-62AD-4065-8E75-068607D5BB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F3C814E-62AD-4065-8E75-068607D5BB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F3C814E-62AD-4065-8E75-068607D5BB69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6875049-BE49-44B0-9A4B-6B3571375CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6875049-BE49-44B0-9A4B-6B3571375CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6875049-BE49-44B0-9A4B-6B3571375CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6875049-BE49-44B0-9A4B-6B3571375CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3520645E-E8F6-4BD2-9C55-9E055BEB5883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3520645E-E8F6-4BD2-9C55-9E055BEB5883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3520645E-E8F6-4BD2-9C55-9E055BEB5883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3520645E-E8F6-4BD2-9C55-9E055BEB5883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91CABFBE-9F9A-4B48-B211-75DC91068CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91CABFBE-9F9A-4B48-B211-75DC91068CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91CABFBE-9F9A-4B48-B211-75DC91068CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91CABFBE-9F9A-4B48-B211-75DC91068CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D64D43-FBDA-405B-96BE-34AF74064F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D64D43-FBDA-405B-96BE-34AF74064F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D64D43-FBDA-405B-96BE-34AF74064F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D64D43-FBDA-405B-96BE-34AF74064F53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E609A74D-9B8E-4629-B1F3-22D710D1861A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E609A74D-9B8E-4629-B1F3-22D710D1861A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E609A74D-9B8E-4629-B1F3-22D710D1861A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E609A74D-9B8E-4629-B1F3-22D710D1861A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A393BB4-37B6-4B98-BB21-97C9BB9D4BCB}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Repository.vsmdi
+	EndGlobalSection
+EndGlobal
